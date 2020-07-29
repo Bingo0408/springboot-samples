@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
+    <kbase name="r-v1" packages="drools.v1">
+        <ksession name="rule-v1"/>
+    </kbase>
+    <kbase name="r-v2" packages="drools.v2">
+        <ksession name="rule-v2"/>
+    </kbase>
+</kmodule>

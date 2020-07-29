@@ -1,0 +1,18 @@
+package rules
+
+import org.bingo.sample.drools.Product
+
+rule "Offer for abc"
+	when
+		product: Product(type=="diamond")
+	then
+		product.setDiscount(115);
+		System.out.println("你触发了 product.type==diamond 的规则");
+	end
+rule "Offer for def"
+	when
+		product: Product(type=="gold")
+	then
+		product.setDiscount(225);
+		System.out.println("你触发了 product.type==gold 的规则");
+	end

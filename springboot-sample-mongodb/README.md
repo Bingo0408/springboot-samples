@@ -1,0 +1,1 @@
+This sample code shows how to config a multi datasource for mongodb
